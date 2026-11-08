@@ -1,0 +1,8 @@
+# One destination per line, written as "Town, Country".
+# Copy this file to places.txt and run:
+#   python scraping.py --places places.txt -o csv
+
+Cairo, Egypt
+Luxor, Egypt
+Sharm El Sheikh, Egypt
+Marrakech, Morocco

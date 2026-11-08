@@ -1,0 +1,23 @@
+# Scraped output. It holds guest reviews, so keep it out of the repo.
+hotels-in-*.json
+hotels-in-*.csv
+hotels-in-*.xlsx
+
+# Your own destination lists (places.example.txt is tracked)
+places.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "booking-review-scraper"
+version = "0.1.0"
+description = "Scrape Booking.com hotels and guest reviews for one or more towns."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "beautifulsoup4>=4.9",
+    "lxml>=4.6",
+    "openpyxl>=3.0",
+    # press_sequentially() was added in 1.38
+    "playwright>=1.38",
+]
+
+[project.scripts]
+booking-scraper = "scraping:main"
+
+[tool.setuptools]
+py-modules = ["scraping", "hotel_page", "file_writer"]
